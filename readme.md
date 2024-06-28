@@ -8,6 +8,7 @@ I use it to demonstrate F5 XC Bot Defense capabilities.
 - User Registration: Allows new users to register with a username and password.
 - User Login: Allows registered users to log in with their credentials.
 - Session Management: Uses PHP sessions to keep users logged in across multiple pages until they log out.
+- SQL Injection: A search page vulnerable to SQL injection
 - Logout: Provides a logout functionality to securely terminate user sessions.
 
 ## Prerequisites
@@ -49,6 +50,7 @@ To run this project locally, you need to have the following software installed:
 - Register: Navigate to `register.html`, fill out the registration form, and submit.
 - Login: Navigate to `login.html`, enter your credentials, and submit.
 - Logout: Click on the "Logout" link on the index page (`index.php`) to terminate your session.
+- Search: A search page vulnerable to SQLi (example: `' OR '1'='1`)
 
 ## License
 

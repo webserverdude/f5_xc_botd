@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (password_verify($password, $hashed_password)) {
         $_SESSION['id'] = $id;
-        header("Location: index.html"); // Redirect to index.html
+        header("Location: index.php"); // Redirect to index.php
         exit();
     } else {
         echo "Invalid username or password!";
